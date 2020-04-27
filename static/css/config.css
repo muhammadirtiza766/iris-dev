@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background: #333 url('https://image.ibb.co/n5A2HU/showcase.jpg') no-repeat center center / cover;
+  background: #333 url('/static/imgs/back2.jpg') no-repeat center center / cover;
   color: #ccc;
   overflow:hidden;
 }
@@ -20,7 +20,7 @@ li, p, ul, h1, a {
 
 .hacker {
   display: inline;
-  background-color: #6f42c1;
+  background-color: #67c142;
   color: #ffffff;
   font-weight: bold;
   padding: .2rem;
@@ -54,7 +54,7 @@ li, p, ul, h1, a {
 }
 
 @media(max-width: 800px) {
-  .container {
+  .typer {
     padding: 0 1rem;
   }
 
@@ -64,11 +64,11 @@ li, p, ul, h1, a {
 }
 
 @media(max-width: 500px) {
-  h1 {
+  h2 {
     font-size: 2.5rem;
   }
 
-  h2 {
+  h4 {
     font-size: 1.5rem;
   }
 }
